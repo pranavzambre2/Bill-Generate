@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILL SPILL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+        <h1 id="title">Bill Generate</h1>
+    <div id="bill-spill">
+        <div class="box1">
+            <h4>Bill</h4>
+
+
+            <input type="number" id="num">
+            <p class="percentage1">Select tip %</p>
+
+            <div class="btns">
+                <button onclick="fun1();" id="btn1">5%</button>
+                <button onclick="fun2();" id="btn2">10%</button>
+                <button onclick="fun3();" id="btn3">15%</button>
+                <button onclick="fun4();" id="btn4">25%</button>
+                <button onclick="fun5();" id="btn5">50%</button>
+                <button onclick="fun6();" id="btn6">75%</button>
+            </div>
+
+            <p class="people"> Number of People</p>
+            <i class="fa fa-user" id="user"></i>
+            <div class="container">
+                <span id="counter">0</span>
+                <div class="btn-container">
+                    <button class="btn increase">+</button>
+                    <button class="btn decrease">-</button>
+                    <button class="btn reset">0</button>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="box2">
+            <p class="rsSign">&#x20b9;</p>
+            <p class="rsSign2">&#x20b9;</p>
+
+            <div class="tipShow">
+                <span id="percentage" class="spn"></span>
+            </div>
+            <div class="amtShow">
+
+
+                <span id="mark7"></span>
+            </div>
+            <button id="billGenerate" onclick="funG();">Bill Generate</button>
+            <button id="final">Reset</button>
+            <div class="tipAmount">
+                <h2 class="tipAmt">Tip Amount</h2>
+                <p>person</p>
+            </div>
+            <div class="total">
+                <h2>Total</h2>
+                <p>person</p>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>

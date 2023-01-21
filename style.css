@@ -1,0 +1,286 @@
+body {
+    background-color: rgb(172, 148, 195);
+    color: rgb(105, 5, 206);
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    position: relative;
+    top: 80px;
+    left: 410px;
+}
+
+#bill-spill {
+    width: 60vw;
+    height: 67vh;
+    background-color: white;
+    position: relative;
+    right: 100px;
+    top: 180px;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.box1 {
+    width: 28vw;
+    height: 51vh;
+    background-color: white;
+    margin: 2px;
+    position: relative;
+    top: 60px;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, .9);
+
+
+}
+
+.rsSign {
+    color: white;
+    position: relative;
+    top: 41px;
+    left: 316px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+.percentage1 {
+    position: relative;
+    top: 32px;
+    margin-left: 90px;
+}
+
+.container {
+    margin-left: 30px;
+    background-color: #B6ACC3;
+    color: black;
+    width: 24vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#user {
+    font-size: 30px;
+    position: relative;
+    top: 43px;
+    left: 39px;
+    color: black;
+
+}
+
+.people {
+    position: relative;
+    top: 40px;
+    left: 41px;
+}
+
+span {
+    position: relative;
+    top: 14px;
+    margin-left: 54px;
+    font-size: 20px;
+}
+
+.set {
+
+    margin-left: 250px;
+    position: relative;
+    bottom: 47px;
+}
+
+.btn-increase {
+    font-size: 30px;
+
+}
+
+.btn-reset {
+    font-size: 30px;
+}
+
+.btn-decrease {
+    font-size: 30px;
+}
+
+.box2 {
+    width: 28vw;
+    height: 51vh;
+    background-color: rgb(105, 5, 206);
+    margin: 2px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, .9);
+}
+
+.btn-container {
+    position: relative;
+    left: 290px;
+}
+
+.user {
+    position: relative;
+    top: 20px;
+
+}
+
+input {
+    position: relative;
+    background-color: #B6ACC3;
+    top: -6px;
+    left: 4px;
+    font-size: 34px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns {
+    width: 300px;
+    position: relative;
+    top: 24px;
+    left: 76px;
+
+}
+
+#btn1 {
+    background-color: rgb(105, 5, 206);
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+    font-size: 20px;
+}
+
+#btn2 {
+    background-color: rgb(105, 5, 206);
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+    font-size: 20px;
+}
+
+#btn3 {
+    background-color: rgb(105, 5, 206);
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+    font-size: 20px;
+}
+
+#btn4 {
+    background-color: rgb(105, 5, 206);
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+    font-size: 20px;
+}
+
+#btn5 {
+    background-color: rgb(105, 5, 206);
+    height: 41px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+
+    width: 89px;
+    font-size: 20px;
+}
+
+#btn6 {
+    background-color: rgb(105, 5, 206);
+    height: 41px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+
+    width: 89px;
+    font-size: 20px;
+}
+
+#billGenerate {
+    width: 131px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: rgb(43, 248, 29);
+    color: white;
+    font-size: 20px;
+    margin-top: 237px;
+    margin-left: 93px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.9);
+    cursor: pointer;
+}
+
+#final {
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.9);
+    cursor: pointer;
+    width: 87px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.tipAmount {
+    position: relative;
+    left: 10px;
+    bottom: 354px;
+    color: white;
+}
+
+.total {
+    position: relative;
+    left: 10px;
+    bottom: 326px;
+    color: white;
+}
+
+.tipShow {
+    position: relative;
+    left: 280px;
+    top: -10px;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+}
+
+.amtShow {
+    width: 130px;
+    color: white;
+    position: relative;
+    left: 281px;
+    top: 80px;
+}
+
+.rsSign2 {
+    position: absolute;
+    left: 316px;
+    bottom: 183px;
+    color: white;
+}
